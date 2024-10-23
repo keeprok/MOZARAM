@@ -15,7 +15,8 @@
 - 간선(Edge) : 두 노드를 연결하는 링크
 - 레벨(Level) : 루트에서 해당 노드까지의 경로의 길이
 - 높이(Height) : 루트에서 가장 기픙ㄴ 노드까지의 길이
-  ![alt text](image.png)
+
+<img src="image.png" alt="Directed Graph" width="400" />
 
 ### 사용 위치
 
@@ -37,7 +38,7 @@
 - 포화 이진 트리(Perfect binary tree)
   - 정 이진 트리이면서 완전 이진 트리인 경우. 모든 리프 노드의 레벨이 동일하고, 모든 레벨이 가득 채워져 있는경우
 
-![alt text](image-1.png)
+<img src="image-1.png" alt="Directed Graph" width="500" />
 
 ## 트리 순회 알고리즘
 

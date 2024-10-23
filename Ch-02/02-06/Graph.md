@@ -12,14 +12,19 @@
 ## 그래프의 종류
 
 - 단반향 그래프(Directed Graph) : 간선이 특정 방향을 가짐 , 정점을 연결하는 간선에 방향이 없는 그래프를 말한다
-  ![alt text](image-1.png)
+
+  <img src="image-1.png" alt="Directed Graph" width="300" />
+
 - 무방향 그래프(Undirected Graph) : 간선에 방향이 없음.
-  ![alt text](image.png)
+
+  <img src="image.png" alt="Directed Graph" width="300" />
+
 - 가중치 그래프(Weighted Graph) : 두 정점을 이동하는 비용이 존재하는 그래프
   - 간선에 값(예: 거리, 비용 등)이 부여된 그래프
-    ![alt text](image-2.png)
+    <img src="image-2.png" alt="Directed Graph" width="300" />
 - 완전 그래프(Completed Graph) : 모든 정점이 연결되어있는 그래프
-  ![alt text](image-5.png)
+
+  <img src="image-5.png" alt="Directed Graph" width="300" />
 
 ## 구현 방법
 
@@ -46,7 +51,7 @@
 
 - 그래프의 노드들을 리스트로 표현한것입니다.
 - 정점의 리스트 배열을 만들어 관계를 설정해줌
-  ![alt text](image-4.png)
+  <img src="image-4.png" alt="Directed Graph" width="300" />
 
 #### 장점
 

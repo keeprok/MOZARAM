@@ -2,7 +2,7 @@
 
 - 우선순위가 가장 높은 데이터를 가장 먼저 삭제하는 자료구조
 - 우선순위 큐는 데이터를 우선순위에 따라 처리하고 싶을 때 사용한다.
-  ![alt text](image.png)
+  <img src="image.png" alt="Directed Graph" width="500" />
 
 ## 특징
 
@@ -28,4 +28,4 @@
 - 최대힙
   - 루트 노드가 가장 큰 값을 가지며 값이 큰 데이터가 우선적으로 제거된다.
   - 최대 힙은 부모노드가 항상 자식노드보다 값이 크다.
-    ![alt text](image-1.png)
+    <img src="image-1.png" alt="Directed Graph" width="400" />
