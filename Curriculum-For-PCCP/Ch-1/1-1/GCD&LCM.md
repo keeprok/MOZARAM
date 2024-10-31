@@ -21,7 +21,7 @@ LCM은 여러 작업의 주기를 맞추거나 일정이 겹치는 경우 좋습
 
 ## 어떻게 구현할까?
 
-> [보러가기 > _cd ./implements.js_](https://github.com/keeprok/MOZARAM/Curriculum-For-PCCP/Ch-1/1-1/GCD-LCM.js)
+> [보러가기 > _cd ./implements.js_](https://github.com/keeprok/MOZARAM/blob/main/Curriculum-For-PCCP/Ch-1/1-1/GCD-LCM.js)
 
 > [실행해보기 > _node ./implements.js_](https://www.typescriptlang.org/play/?#code/Q)
 
