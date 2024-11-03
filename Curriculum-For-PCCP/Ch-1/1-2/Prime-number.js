@@ -1,18 +1,21 @@
-function primeNumber(n) {
-  // 모든 수를 소수로 가정하고 true로 초기화
-  const isPrime = Array(n + 1).fill(true);
-  isPrime[0] = isPrime[1] = false; // 0과 1은 소수가 아님
+function sieveOfEratosthenes(number) {
+  const s = new Set([2]); // 2를 초기 소수로 추가
 
-  // 제곱근까지만 반복
-  for (let i = 2; i * i <= n; i++) {
-    if (isPrime[i]) {
-      for (let j = i * i; j <= n; j += i) {
-        // 배수라면 소수가 아님 => false
-        isPrime[j] = false;
+  // 3부터 시작해 모든 홀수만 추가
+  for (let i = 3; i <= n; i += 2) {
+    s.add(i);
+  }
+
+  // 3부터 sqrt(n)까지 반복
+  for (let j = 3; j <= Math.sqrt(n); j += 2) {
+    if (s.has(j)) {
+      // j의 배수 제거
+      for (let k = j * j; k <= n; k += j * 2) {
+        s.delete(k);
       }
     }
   }
 
-  // true 값만 배열로 출력
-  return isPrime.map((isPrime, index) => (isPrime ? index : null)).filter((num) => num !== null);
+  return Array.from(s);
 }
+// 내꺼 안되서 조이님껄로 수정
